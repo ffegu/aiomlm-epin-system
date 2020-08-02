@@ -1,0 +1,27 @@
+{
+    "name": "aiomlm/epin-system",
+    "description": "Epin system for aiomlm(by ffegu)",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pran pegu",
+            "email": "ffegu0617@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Aiomlm\\Epin\\": "src/"
+        }
+    },
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                 "Aiomlm\\Epin\\EpinServiceProvider"
+            ]
+        }
+    }
+}
